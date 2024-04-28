@@ -50,3 +50,26 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+}
+
+.course-list {
+  list-style: none;
+  padding: 0;
+}
+
+.course-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.course-list li:last-child {
+  border-bottom: none;
+}

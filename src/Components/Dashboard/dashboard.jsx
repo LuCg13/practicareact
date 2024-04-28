@@ -35,9 +35,9 @@ function Dashboard() {
     <div>
       <h2>Dashboard</h2>
       {error ? (
-        <p>{error}</p>
+        <p className="error-message">{error}</p>
       ) : (
-        <ul>
+        <ul className="course-list">
           {courses.map((course) => (
             <li key={course.id}>{course.name}</li>
           ))}
